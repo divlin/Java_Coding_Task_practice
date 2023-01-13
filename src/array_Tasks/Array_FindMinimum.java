@@ -6,15 +6,21 @@ public class Array_FindMinimum {
 
         int[] arr = {1,2,3,4,5,6,};
 
-       int min = Integer.MAX_VALUE;
+        System.out.println(findMin(arr));
+
+    }
+
+
+    public static int findMin(int[] arr){
+
+        int min = Integer.MAX_VALUE;
 
         for (int each : arr) {
             if(each < min){
                 min = each;
             }
         }
-        System.out.println(min);
-
+        return min;
 
     }
 
