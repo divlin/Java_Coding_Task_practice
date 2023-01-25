@@ -6,11 +6,8 @@ public class Consecutive_Number {
 
         consecutiveNumbers(25);
 
-
     }
-
     public static void consecutiveNumbers(int number) {
-
 
         for (int i = 1; i <= number; i++) {
 
