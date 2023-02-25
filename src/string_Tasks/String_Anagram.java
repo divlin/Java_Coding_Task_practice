@@ -8,7 +8,6 @@ public class String_Anagram {
     public static void main(String[] args) {
 
         System.out.println(same("eat", "ten"));
-
         System.out.println(same1("abc", "bca"));
 
     }
